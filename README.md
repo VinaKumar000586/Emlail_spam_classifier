@@ -43,6 +43,8 @@ This project is an AI-powered Email and SMS Spam Classifier built using Machine 
 📊 Best Performing Model: Multinomial Naïve Bayes (Highest accuracy & precision)
 ![image](https://github.com/user-attachments/assets/9ebfb159-e567-450e-86da-1bc21cc839e0)
 
+project link : https://emlail-spam-classifier.onrender.com
+
 📂 Project Structure
 bash
 Copy code
