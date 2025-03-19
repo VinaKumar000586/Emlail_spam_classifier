@@ -1,9 +1,8 @@
-mkdir -p ~/.streamlit/
+New-Item -ItemType Directory -Path $HOME\.streamlit -Force
 
-echo "\
-[server]\n\
-port = $PORT\n\
-enableCORS = false\n\
-headless = true\n\
-\n\
-" > ~/.streamlit/config.toml
+Set-Content -Path $HOME\.streamlit\config.toml -Value @"
+[server]
+port = $env:PORT
+enableCORS = false
+headless = true
+"@
